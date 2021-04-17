@@ -12,6 +12,12 @@
     --primary-color: #000106;
     --secondary-color: #fff;
 }
+.dark-theme .info button:hover{
+    background: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 9px 18px;
+}
 
 #icon{
     width: 30px;
@@ -81,6 +87,12 @@ span{
     border: none;
     cursor: pointer;
     text-transform: uppercase;
+}
+.info button:hover{
+    background: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 9px 18px;
 }
 .img-box{
     width: 45%;
